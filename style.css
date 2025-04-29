@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+/*#6F1200
+#301504
+*/
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #4B2E2B;
+    padding: 10px;
+}
+
+button {
+    cursor: pointer;
+}
+
+.logo-cafe {
+    width: 70px;
+}
+
+.div-logo {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.title-logo {
+    font-size: 40px;
+    color: #ffffff;
+}
+
+ul {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: #f3f3f3;
+}
+
+.button-header {
+    color: #4B2E2B;
+    background-color: #D9A066;
+    padding: 5px 20px;
+    border-radius: 30px;
+    border: none;
+}
+
+.principal {
+    background-color: #311f1d;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+.principal-texto {
+    color: #D9A066;
+    width: 45%;
+    height: 50%;
+}
+
+.div-cafe-principal {
+    width: 45%;
+}
+
+.cafe-principal {
+    width: 100%;
+}
