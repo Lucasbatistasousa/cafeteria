@@ -46,12 +46,29 @@ a {
     color: #f3f3f3;
 }
 
+a:hover {
+    color: #D9A066;
+}
+
+a:active {
+    opacity: .6;
+}
+
 .button-header {
     color: #4B2E2B;
     background-color: #D9A066;
     padding: 5px 20px;
     border-radius: 30px;
     border: none;
+}
+
+.button-header:hover {
+    color: #f3f3f3;
+    background-color: #311f1d;
+}
+
+.button-header:active {
+    opacity: .8;
 }
 
 .principal {
@@ -71,10 +88,136 @@ h1 {
     height: 50%;
 }
 
+.principal-button {
+    color: #f3f3f3;
+    background: linear-gradient(90deg,#4B2E2B, #311f1d );
+    padding: 10px 40px;
+    border-radius: 20px;
+    border: 2px solid #6d413d;
+    margin-top: 15px;
+}
+
+.principal-button:hover {
+    background: #6d413d;
+}
+
+.principal-button:active {
+    opacity: .8;
+}
+
 .div-cafe-principal {
     width: 45%;
 }
 
 .cafe-principal {
     width: 100%;
+}
+
+.principais-cafes{
+    display: flex;
+    width: 90%;
+    justify-content: space-around;
+}
+
+.cafes-especiais {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+h2 {
+    margin: 20px 0;
+}
+
+.cafe {
+    width: 200px;
+    height: 175px;
+    position: relative;
+    top: -25px;
+}
+
+h3 {
+    margin-bottom: 8px;
+}
+
+.div-cafes {
+    width: 300px;
+    height: 340px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #e0dddd;
+    border-radius: 25px;
+    margin: 20px 0;
+}
+
+.div-cafes p {
+    text-align: center;
+    font-size: 1em;
+    width: 250px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #4B2E2B;
+    padding: 10px;
+}
+
+.div-footer {
+    display: flex;
+}
+
+.p-footer {
+    color: #f3f3f3;
+    margin: 10px 0;
+}
+
+@media screen and (max-width: 875px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .principal {
+        flex-direction: column;
+    }
+
+    .principal-texto {
+        width: 90%;
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 2em;
+        text-align: center;
+        margin: 10px 0;
+    }
+
+    .cafes-especiais {
+        text-align: center;
+    }
+
+    .principais-cafes {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    footer {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .div-footer img {
+        height: 70px;
+    }
+
+    .div-footer {
+        align-items: center;
+    }
 }
