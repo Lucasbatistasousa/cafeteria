@@ -13,7 +13,8 @@ Este é um projeto de site simples para uma **cafeteria**, exibindo alguns café
 
 ### Versão Desktop
 
-![Cafeteria - Desktop](./imagens/cafeteria-desktop.png)
+![Cafeteria - Desktop](./assets/cafeteria1.png) 
+(./assets/cafeteria2.png) (./assets/cafeteria3.png)
 
 ### Versão Mobile
 
