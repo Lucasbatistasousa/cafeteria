@@ -13,12 +13,14 @@ Este é um projeto de site simples para uma **cafeteria**, exibindo alguns café
 
 ### Versão Desktop
 
-![Cafeteria - Desktop](./assets/cafeteria1.png) 
-(./assets/cafeteria2.png) (./assets/cafeteria3.png)
+![Cafeteria - Desktop](./assets/cafeteria1.png)
+![Cafeteria - Desktop](./assets/cafeteria2.png)
 
 ### Versão Mobile
 
-![Cafeteria - Mobile](./imagens/cafeteria-mobile.png)
+![Cafeteria - Mobile](./imagens/cafeteriamobile1.png)
+![Cafeteria - Mobile](./imagens/cafeteriamobile2.png)
+![Cafeteria - Mobile](./imagens/cafeteriamobile3.png)
 
 > As imagens acima mostram a interface responsiva do site em diferentes tamanhos de tela.
 
@@ -27,8 +29,6 @@ Este é um projeto de site simples para uma **cafeteria**, exibindo alguns café
 - Página inicial com destaque para cafés em exposição
 - Layout 100% responsivo
 - Design minimalista e elegante
-- Seção de contato com mapa (opcional)
-- Rodapé com links úteis
 
 ## 🚀 Como executar o projeto
 
