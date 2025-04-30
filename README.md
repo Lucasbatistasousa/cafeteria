@@ -19,8 +19,8 @@ Este é um projeto de site simples para uma **cafeteria**, exibindo alguns café
 ### Versão Mobile
 
 ![Cafeteria - Mobile](./assets/cafeteriamobile1.png)
-![Cafeteria - Mobile](./assets/cafeteriamobile3.png)
 ![Cafeteria - Mobile](./assets/cafeteriamobile2.png)
+![Cafeteria - Mobile](./assets/cafeteriamobile3.png)
 
 > As imagens acima mostram a interface responsiva do site em diferentes tamanhos de tela.
 
